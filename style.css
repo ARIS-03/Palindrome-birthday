@@ -1,0 +1,77 @@
+*,html{
+    margin:0;
+    padding:0;
+}
+body{
+  font-size: x-large;
+  
+  background-image: url('sqr.jpg');
+  background-size:auto;
+  background-repeat: no-repeat;
+  border-radius: 4rem;
+  border-left: 40px;
+  background-image: center;
+  
+}
+
+header{
+    margin-top: 1rem;;
+    padding:1rem 2rem;
+    background-color: grey;
+    width:max-content;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    color:white;
+}
+.container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin:2rem;
+}
+
+input, button{
+    background-color:grey;
+    color:black;
+    margin:1rem;
+    padding:1rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: larger;
+    
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+.display{
+    text-align:center;
+    color:#cf996d;
+    font-weight:bolder;
+    font-size: larger;
+    text-shadow: 1px 1px black;
+}
+
+.footer{
+    background-color:grey;
+    padding:1rem 0rem;
+    text-align: center;
+    background-size:cover;
+    color: white;
+    position:absolute;
+   bottom:0px;
+   width:100%;
+}
+.footer ul{
+    padding-inline-start: 0px;
+    
+}
+
+.link{
+
+    text-decoration: none;
+    color: whitesmoke;
+    padding:0 5vh;
+}
